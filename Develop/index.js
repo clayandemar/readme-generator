@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 const readmeTemplate = ({ title, description, table, usage, licensing, contribution, tests, questions, username, email, badge }) =>
@@ -39,9 +39,8 @@ ${tests}
 ${questions}
 [Link](https://github.com/${username})
 [${email}](mailto:${email})
-
 `;
-// TODO: Create an array of questions for user input: Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
 inquirer.prompt([
   {
     type: 'name',
@@ -114,7 +113,6 @@ inquirer.prompt([
     writeToFile("README.md", readmeTemplate(answers))
   });
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, err => {
     if (err) {
