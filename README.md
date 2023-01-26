@@ -1,9 +1,5 @@
 # 09 Node.js Challenge: Professional README Generator
 
-## Task
-
-
-
 
 ## User Story
 
@@ -33,14 +29,8 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Getting Started
 
-
-
-* Refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
-
-
-
+![Video](./Develop/video/screen.mov)
 
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
