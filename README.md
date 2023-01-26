@@ -1,35 +1,49 @@
 # 09 Node.js Challenge: Professional README Generator
 
+## Description
+
+This project was made to create README files efficiently with node.js. 
+
+## Table of Contents
+
+-Description
+-Usage
+-User Story
+-Acceptance Criteria
+-Link
+-Photo
+
+## Usage
+
+This project can be used by developers and any computer programmers to help them build a README for their published code.
 
 ## User Story
 
 ```md
 AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+I WANT to have an easy outline to generate a README file
+SO THAT I can turn in a professionally organized README quickly and painlessly
 ```
 
 ## Acceptance Criteria
 
 ```md
-GIVEN a command-line application that accepts user input
+GIVEN I open the command-line
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+WHEN I answer a prompt/question
+THEN the next prompt/question will show while storing the answer of the previous
+WHEN I reach the licensing prompt
+THEN licensing options will show which I can choose from
+WHEN I finish answering all the prompts
+THEN a message will display in the terminal that a new README file has been made
+WHEN I open the new README file
+THEN I am presented with a full README file that is filled out with my answers
 ```
 
+## Link and Video
 
+[url](https://clayandemar.github.io/readme-generator/)
 ![Video](./Develop/video/screen.mov)
 
 
